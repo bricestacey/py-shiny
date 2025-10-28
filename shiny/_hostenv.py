@@ -11,7 +11,7 @@ from urllib.parse import ParseResult, urlparse
 
 
 def is_workbench() -> bool:
-    return bool(os.getenv("RS_SERVER_URL") and os.getenv("RS_SESSION_URL"))
+    return True
 
 
 def is_codespaces() -> bool:
